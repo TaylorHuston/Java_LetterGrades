@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 /*
  * Simple program to calculate a letter grade. 
- * Demonstrates Switch statement
- * From "Java How To Program, 10/e, Early Objects" - Chapter 5
+ * Demonstrates Switch statement.
+ * From "Java How To Program, 10/e, Early Objects" - Chapter 5.
  */
 
 
