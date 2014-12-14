@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
  * Simple program to calculate a letter grade. 
  * Demonstrates Switch statement.
- * From "Java How To Program, 10/e, Early Objects" - Chapter 5.
+ * Based On "Java How To Program, 10/e, Early Objects" - Chapter 5.
  */
 
 
@@ -50,15 +50,16 @@ public class LetterGrades {
                 default:  //Grade less than 60
                     ++fCount;
                     break;
-            }//End switch  
-        }//End while
+            } //End switch  
+        } //End while
         
         System.out.printf("%nGrade Report:%n");
         
-        if(counter != 0) {
+        if (counter != 0) {
             double average  = (double) total / counter;
         
-            System.out.printf("Total of the %d grades entere is %d%n", counter, total);
+            System.out.printf("Total of the %d grades entere is %d%n", 
+                    counter, total);
             System.out.printf("Class average is %.2f%n", average);
             System.out.printf("%n%s%n%s%d%n%s%d%n%s%d%n%s%d%n%s%d%n",
                "Number of students who received each grade:",
@@ -69,8 +70,7 @@ public class LetterGrades {
                "F: ", fCount); // display number of F grades
          }
 
-    }//End main
-        
-}//End class LetterGrades
+    } //End main   
+} //End class LetterGrades
     
 
